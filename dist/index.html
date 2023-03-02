@@ -4,10 +4,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webpack Starter Kit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Mynerve&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1459477c08.js" crossorigin="anonymous"></script>
+  <title>Puppy Palace</title>
 </head>
 <body>
-  <img src="./images/turing-logo.png" alt="turing logo">
+  <aside class="image">
+    <img class="puppy-pic" src="./images/dog-in-bed.png" alt="puppy laying in bed">
+  </aside>
+  <main>
+    <header>
+      <h1>🐶 PUPPY PALACE</h1>
+    </header>
+    <section class="rooms-and-expenses">
+      <div>
+        <button class="bookings">Bookings</button>
+        <button class="expenses">Expenses</button>
+      </div> 
+    </section>
+    <section>
+      <div>
+        <label for="search" class>Search:</label>
+        <input type="date" id="search" name="trip-start" value="2023-03-01" min="2023-03-01" max="2024-03-01">
+      </div>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            <a href="#about">About</a>
+            <a href="#base">Base</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+      </div>
+    </section>
+  </main>
   
   <!-- Do not include the scripts.js or class files here - it is done by the webpack server -->
   <script src="bundle.js"></script>

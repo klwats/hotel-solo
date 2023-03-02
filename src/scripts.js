@@ -1,3 +1,6 @@
+import './images/dog-in-bed.png'
+
+
 // This is the JavaScript entry file - your code begins here
 // Do not delete or rename this file ********
 
@@ -9,3 +12,4 @@ import './images/turing-logo.png'
 
 
 console.log('This is the JavaScript entry file - your code begins here.');
+
