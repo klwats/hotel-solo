@@ -1,3 +1,33 @@
+* {
+  font-family: 'Mynerve', cursive, serif;
+  border: 1px solid black
+}
 body {
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: rgb(62, 193, 193);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.image {
+  height: 100%;
+  width: 30%;
+}
+
+main {
+  width: 70%;
+  height: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 60px;
+}
+
+.puppy-pic {
+  height: 100%;
+  width: 100%;
 }
